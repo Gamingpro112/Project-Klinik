@@ -1,0 +1,136 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+:root {
+  /* colors */
+  --color-primary: #106EEA;
+  --color-primary-light: #3B8AF2;
+  --color-secondary: #0DB2FF;
+  --color-secondary-dark: #0094D9;
+  --color-third: #FDDA58;
+  --color-third-dark: #FFD633;
+  --color-quadra: #9ECBD0;
+  --color-quadra-dark: #44A1AB;
+  --color-accent: #444444;
+  --color-accent-light: #5E5E5E;
+  --color-border: #F2F2F2;
+  --color-border-dark: #888888;
+  --color-dark: #111;
+  --color-white: #fff;
+
+  /* fonts */
+  --font-1: "Inter", sans-serif;
+  --font-2: "Open Sans", sans-serif;
+  --font-38: 38px;
+  --font-32: 32px;
+  --font-28: 28px;
+  --font-24: 24px;
+  --font-20: 20px;
+  --font-18: 18px;
+  --font-16: 16px;
+  --font-14: 14px;
+  
+  /* Effects */
+  --shadow: 0 10px 30px rgba(0, 0, 0, 10%);
+  --transition: all 200ms ease;
+}
+
+/* Margin */
+.mb-56 {
+  margin-bottom: 56px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+/* Margin - End */
+
+/* fonts - Heading */
+.display {
+  font-family: var(--font-1);
+  font-size: var(--font-38);
+  line-height: calc(var(--font-38)*1.5);
+}
+.h1 {
+  font-family: var(--font-1);
+  font-size: var(--font-32);
+  line-height: calc(var(--font-32)*1.5);
+}
+.h2 {
+  font-family: var(--font-1);
+  font-size: var(--font-28);
+  line-height: calc(var(--font-28)*1.5);
+}
+.h3 {
+  font-family: var(--font-1);
+  font-size: var(--font-24);
+  line-height: calc(var(--font-24)*1.5);
+}
+.h4 {
+  font-family: var(--font-1);
+  font-size: var(--font-24);
+  line-height: calc(var(--font-24)*1.5);
+}
+.h5 {
+  font-family: var(--font-1);
+  font-size: var(--font-20);
+  line-height: calc(var(--font-20)*1.5);
+}
+
+/* fonts - Paragraph/Body */
+.p-18 {
+  font-family: var(--font-2);
+  font-size: var(--font-18);
+  line-height: calc(var(--font-18)*1.5);
+}
+.p-16 {
+  font-family: var(--font-2);
+  font-size: var(--font-16);
+  line-height: calc(var(--font-16)*1.5);
+}
+.p-14 {
+  font-family: var(--font-2);
+  font-size: var(--font-14);
+  line-height: calc(var(--font-14)*1.5);
+}
+
+/* fonts - Label */
+.l-18 {
+  font-family: var(--font-1);
+  font-size: var(--font-18);
+  line-height: calc(var(--font-18)*1.5);
+}
+.l-16 {
+  font-family: var(--font-1);
+  font-size: var(--font-16);
+  line-height: calc(var(--font-16)*1.5);
+}
+.l-14 {
+  font-family: var(--font-1);
+  font-size: var(--font-14);
+  line-height: calc(var(--font-14)*1.5);
+}
+
+/* utils */
+.container-fluid {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+/* Media Query (Mobile) */
+@media (max-width: 767.98px) {
+  .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/* Media Query (Mobile) - End */
+
+/* Media Query (Tablet) */
+@media (min-width: 768px) and (max-width: 997.98px) {
+  .container-fluid {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+/* Media Query (Tablet) - End */

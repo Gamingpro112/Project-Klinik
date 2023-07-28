@@ -1,0 +1,46 @@
+/* Login */
+#login {
+    background: url('../../img/login-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  
+  #login .login-form-container .section-header {
+    margin-bottom: 24px;
+  }
+  
+  #login .login-form-container .section-body .form-control {
+    padding: 12px;
+    border-radius: 5px !important;
+    border: 1px solid var(--color-border);
+    font-family: var(--font-1);
+    outline: none;
+    box-shadow: none;
+    transition: var(--transition);
+  }
+  
+  #login .login-form-container .section-body .form-control:focus {
+    border-color: var(--color-primary);
+  }
+  
+  #login .login-form-container .section-body .button-action-group {
+    column-gap: 16px;
+    margin-top: 24px;
+  }
+  /* Login - End */
+  
+  /* Media Queries (Mobile) */
+  @media (max-width: 767.98px) {
+    .button-action-group {
+      flex-direction: column;
+      row-gap: 16px;
+    }
+  
+    .button-action-group .btn {
+      width: 100%;
+    }
+  }
+  /* Media Queries (Mobile) - End */

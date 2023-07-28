@@ -1,0 +1,24 @@
+/* Data */
+#data .data-container .nav {
+    justify-content: center;
+    column-gap: 24px;
+  }
+  #data .data-container .nav .nav-item .nav-link {
+    color: var(--color-accent);
+  }
+  #data .data-container .nav .nav-item .nav-link.active {
+    background-color: transparent !important;
+    color: var(--color-primary);
+  }
+  #data .data-container .no-data-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 8px;
+  }
+  #data .data-container .no-data-message i {
+    font-size: 56px;
+    color: var(--color-accent);
+  }
+  /* Data - End */

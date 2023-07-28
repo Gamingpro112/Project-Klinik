@@ -1,0 +1,193 @@
+/* Layanan */
+#layanan .layanan-kr-container .layanan-menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+  }
+  
+  #layanan .layanan-kr-container .layanan-menu .layanan-item {
+    border-bottom: 1px solid var(--color-border);
+    padding: 24px;
+    transition: var(--transition);
+  }
+  #layanan .layanan-kr-container .layanan-menu .layanan-item:hover {
+    background-color: rgba(0, 0, 0, 2%);
+  }
+  
+  #layanan .layanan-kr-container .layanan-menu .layanan-item .layanan-link {
+    color: var(--color-accent);
+    font-family: var(--font-1);
+    display: flex;
+    column-gap: 8px;
+  }
+  
+  #layanan .layanan-kr-container .layanan-menu .layanan-item .layanan-link i {
+    font-size: 20px;
+  }
+  /* Layanan - End */
+  
+  /* Fasilitas */
+  #layanan .carousel {
+    height: 400px;
+  }
+  
+  #layanan .carousel .carousel-inner {
+    height: 100%;
+  }
+  
+  #layanan .carousel .carousel-inner .carousel-item,
+  #layanan .carousel .carousel-inner .carousel-item.active img {
+    height: 100%;
+  }
+  /* Fasilitas - End */
+  
+  /* Program Bantuan */
+  #layanan .row {
+    row-gap: 32px;
+  }
+  
+  #layanan .artikel-item .card {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  
+  #layanan .artikel-item .card .card-img-top {
+    width: 100%;
+    height: 283px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    transition: var(--transition);
+  }
+  
+  #layanan .artikel-item .card:hover .card-img-top {
+    -webkit-filter: drop-shadow(var(--shadow));
+    filter: drop-shadow(var(--shadow));
+  }
+  
+  #layanan .artikel-item .card .card-body .article-date-label { 
+    margin-bottom: 16px; 
+    color: var(--color-accent);
+  }
+  
+  #layanan .artikel-item .card .card-body .article-title {
+    margin-bottom: 16px;
+    color: var(--color-dark);
+  }
+  
+  #layanan .artikel-item .card .card-body .button-link-action {
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+  }
+  
+  #layanan .artikel-item .card .card-body .button-link-action:hover {
+    column-gap: 14px;
+  }
+  /* Program Bantuan - End */
+  
+  /* Konsultasi */
+  .consult-schedule-container {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+  }
+  
+  .consult-schedule-container .consult-schedule-item {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+  }
+  
+  .consult-schedule-container .consult-schedule-item i {
+    font-size: 24px;
+  }
+  /* Konsultasi - End */
+  
+  /* Teknologi Konstruksi */
+  #layanan .teknologi-konstruksi-container .row {
+    row-gap: 32px;
+  }
+  
+  #layanan .teknologi-konstruksi-container .artikel-item .card {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 24px;
+    align-items: center;
+  }
+  
+  #layanan .teknologi-konstruksi-container .artikel-item .card .card-img-top {
+    width: 100%;
+    height: 307px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    transition: var(--transition);
+  }
+  
+  #layanan .teknologi-konstruksi-container .artikel-item .card:hover .card-img-top {
+    -webkit-filter: drop-shadow(var(--shadow));
+    filter: drop-shadow(var(--shadow));
+  }
+  
+  #layanan .teknologi-konstruksi-container .artikel-item .card .card-body .article-date-label { 
+    margin-bottom: 16px; 
+    color: var(--color-accent);
+  }
+  
+  #layanan .teknologi-konstruksi-container .artikel-item .card .card-body .article-title {
+    margin-bottom: 16px;
+    color: var(--color-dark);
+  }
+  
+  #layanan .teknologi-konstruksi-container .artikel-item .card .card-body .button-link-action {
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+  }
+  
+  #layanan .teknologi-konstruksi-container .artikel-item .card .card-body .button-link-action:hover {
+    column-gap: 14px;
+  }
+  /* Teknologi Konstruksi - End */
+  
+  /* Media Queries (Mobile) */
+  @media (max-width: 767.98px) {
+    #layanan .row {
+      row-gap: 32px;
+    }
+  
+    #layanan .carousel {
+      height: 200px;
+    }
+  
+    #layanan .teknologi-konstruksi-container .artikel-item .card  {
+      grid-template-columns: 1fr;
+    }
+  }
+  /* Media Queries (Mobile) - End */
+  
+  /* Media Queries (Tablet) */
+  @media (min-width: 768px) and (max-width: 997.98px) {
+    #layanan .row {
+      row-gap: 32px;
+    }
+  
+    #layanan .carousel {
+      height: 200px;
+    }
+  
+    #layanan .teknologi-konstruksi-container .artikel-item .card  {
+      grid-template-columns: 1fr;
+    }
+  }
+  /* Media Queries (Tablet) - End */

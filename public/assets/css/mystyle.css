@@ -1,0 +1,13 @@
+.select2-results { 
+  background-color: #142c50;
+}
+.select2-container {
+  color: #fff;
+  width: 100% !important;
+}
+.select2-selection__choice {
+  color: #000000;
+}
+.select2-container--open {
+  background: #142c50;
+}
